@@ -15,7 +15,12 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 genres.append("Drama")
 print(genres)
 print()
-print(len(genres))
+has_duplicates=len(genres) !=len(set(genres))
+print(has_duplicates)
+
+print(f"number of genres: {(len(genres))}")
 print()
 
-print(genres[1::2])
+second_item=genres[1]
+secont_to_last=genres[-2]
+print([second_item,secont_to_last])
